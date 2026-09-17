@@ -1,91 +1,109 @@
 [
   {
-    "@id": "https://graph.yourdomain.com/#track1",
+    "@id": "https://myexchampagne.com/#yes-im-single-track",
     "@type": [
       "https://schema.org/MusicRecording"
     ],
-    "https://schema.org/audio": [
+    "https://schema.org/byArtist": [
       {
-        "@id": "https://yourdomain.com/audio/track1.mp3"
+        "@id": "https://myexchampagne.com/#artist"
       }
     ],
-    "https://schema.org/duration": [
+    "https://schema.org/inAlbum": [
       {
-        "@value": "PT3M45S"
-      }
-    ],
-    "https://schema.org/isrcCode": [
-      {
-        "@value": "YOUR_ISRC_CODE"
+        "@id": "https://myexchampagne.com/#yes-im-single"
       }
     ],
     "https://schema.org/name": [
       {
-        "@value": "TRACK 1 TITLE"
+        "@value": "Yes I'm Single"
       }
     ]
   },
   {
-    "@id": "https://graph.yourdomain.com/#artist",
+    "@id": "https://myexchampagne.com/#artist",
     "@type": [
       "https://schema.org/MusicGroup"
     ],
     "https://schema.org/album": [
       {
-        "@id": "https://graph.yourdomain.com/#album1"
+        "@id": "https://myexchampagne.com/#yes-im-single"
+      }
+    ],
+    "https://schema.org/description": [
+      {
+        "@value": "Official website for myexchampagne, a hip-hop and R&B music artist born in Milwaukee, Wisconsin and based in Arizona."
       }
     ],
     "https://schema.org/identifier": [
       {
-        "@value": "YOUR_ISNI_NUMBER"
+        "@value": "0000000530964203"
       }
     ],
     "https://schema.org/name": [
       {
-        "@value": "YOUR ARTIST NAME"
+        "@value": "myexchampagne"
       }
     ],
     "https://schema.org/sameAs": [
       {
-        "@id": "https://www.wikidata.org/wiki/YOUR_WIKIDATA_QID"
+        "@id": "https://www.facebook.com/myexchampagne"
       },
       {
-        "@id": "https://musicbrainz.org/artist/YOUR_MUSICBRAINZ_ID"
+        "@id": "https://www.instagram.com/myexchampagne"
       },
       {
-        "@id": "https://orcid.org/YOUR_ORCID_ID"
+        "@id": "https://x.com/myexchampagne"
+      },
+      {
+        "@id": "https://www.youtube.com/@myexchampagne"
+      },
+      {
+        "@id": "https://www.tiktok.com/@myexchampagne"
+      },
+      {
+        "@id": "https://genius.com/artists/myexchampagne"
+      },
+      {
+        "@id": "https://musicbrainz.org/artist/7b461865-b74a-49ff-9cbe-e0ba481ea50f"
+      },
+      {
+        "@id": "https://isni.org/isni/0000000530964203"
+      },
+      {
+        "@id": "https://orcid.org/0009-0006-9246-2158"
       }
     ],
     "https://schema.org/url": [
       {
-        "@value": "https://yourdomain.com"
+        "@id": "https://myexchampagne.com/"
       }
     ]
   },
   {
-    "@id": "https://graph.yourdomain.com/#album1",
+    "@id": "https://myexchampagne.com/#yes-im-single",
     "@type": [
       "https://schema.org/MusicAlbum"
     ],
     "https://schema.org/byArtist": [
       {
-        "@id": "https://graph.yourdomain.com/#artist"
+        "@id": "https://myexchampagne.com/#artist"
       }
     ],
     "https://schema.org/datePublished": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-09-17"
+        "@value": "2026-10-02"
       }
     ],
     "https://schema.org/name": [
       {
-        "@value": "YOUR ALBUM TITLE"
+        "@value": "Yes I'm Single"
       }
     ],
     "https://schema.org/track": [
       {
-        "@id": "https://graph.yourdomain.com/#track1"
+        "@id": "https://myexchampagne.com/#yes-im-single-track"
       }
     ]
   }
