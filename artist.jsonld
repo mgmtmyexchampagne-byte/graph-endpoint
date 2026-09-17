@@ -1,0 +1,92 @@
+[
+  {
+    "@id": "https://graph.yourdomain.com/#track1",
+    "@type": [
+      "https://schema.org/MusicRecording"
+    ],
+    "https://schema.org/audio": [
+      {
+        "@id": "https://yourdomain.com/audio/track1.mp3"
+      }
+    ],
+    "https://schema.org/duration": [
+      {
+        "@value": "PT3M45S"
+      }
+    ],
+    "https://schema.org/isrcCode": [
+      {
+        "@value": "YOUR_ISRC_CODE"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "TRACK 1 TITLE"
+      }
+    ]
+  },
+  {
+    "@id": "https://graph.yourdomain.com/#artist",
+    "@type": [
+      "https://schema.org/MusicGroup"
+    ],
+    "https://schema.org/album": [
+      {
+        "@id": "https://graph.yourdomain.com/#album1"
+      }
+    ],
+    "https://schema.org/identifier": [
+      {
+        "@value": "YOUR_ISNI_NUMBER"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "YOUR ARTIST NAME"
+      }
+    ],
+    "https://schema.org/sameAs": [
+      {
+        "@id": "https://www.wikidata.org/wiki/YOUR_WIKIDATA_QID"
+      },
+      {
+        "@id": "https://musicbrainz.org/artist/YOUR_MUSICBRAINZ_ID"
+      },
+      {
+        "@id": "https://orcid.org/YOUR_ORCID_ID"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@value": "https://yourdomain.com"
+      }
+    ]
+  },
+  {
+    "@id": "https://graph.yourdomain.com/#album1",
+    "@type": [
+      "https://schema.org/MusicAlbum"
+    ],
+    "https://schema.org/byArtist": [
+      {
+        "@id": "https://graph.yourdomain.com/#artist"
+      }
+    ],
+    "https://schema.org/datePublished": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-09-17"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "YOUR ALBUM TITLE"
+      }
+    ],
+    "https://schema.org/track": [
+      {
+        "@id": "https://graph.yourdomain.com/#track1"
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Primary Artist Node
+<https://graph.yourdomain.com/#artist> a schema:MusicGroup ;
+    schema:name "YOUR ARTIST NAME" ;
+    schema:url "https://yourdomain.com" ;
+    schema:identifier "YOUR_ISNI_NUMBER" ;
+    schema:sameAs <https://www.wikidata.org/wiki/YOUR_WIKIDATA_QID> ,
+                  <https://musicbrainz.org/artist/YOUR_MUSICBRAINZ_ID> ,
+                  <https://orcid.org/YOUR_ORCID_ID> ;
+    schema:album <https://graph.yourdomain.com/#album1> .
+
+# Album Node
+<https://graph.yourdomain.com/#album1> a schema:MusicAlbum ;
+    schema:name "YOUR ALBUM TITLE" ;
+    schema:byArtist <https://graph.yourdomain.com/#artist> ;
+    schema:datePublished "2026-09-17"^^xsd:date ;
+    schema:track <https://graph.yourdomain.com/#track1> .
+
+# Track Node with Technical/Acoustic Metadata
+<https://graph.yourdomain.com/#track1> a schema:MusicRecording ;
+    schema:name "TRACK 1 TITLE" ;
+    schema:isrcCode "YOUR_ISRC_CODE" ;
+    schema:duration "PT3M45S" ; # 3 min 45 sec
+    schema:audio <https://yourdomain.com/audio/track1.mp3> .
