@@ -10,6 +10,7 @@
     schema:name "myexchampagne" ;
     schema:description "Official website for myexchampagne, a hip-hop and R&B music artist born in Milwaukee, Wisconsin and based in Arizona." ;
     schema:url <https://myexchampagne.com/> ;
+    schema:image <https://assets.myexchampagne.com/assets-folder/myexchampagne-artist-Main-photo-alt.jpg> ;
     schema:identifier "0000000530964203" ;
     schema:sameAs <https://www.facebook.com/myexchampagne> ,
         <https://www.instagram.com/myexchampagne> ,
@@ -26,6 +27,7 @@
 <https://myexchampagne.com/#yes-im-single> a schema:MusicAlbum ;
     schema:name "Yes I'm Single" ;
     schema:byArtist <https://myexchampagne.com/#artist> ;
+    schema:image <https://assets.myexchampagne.com/assets-folder/myexchampagne-artist-Debut-song-art.jpg> ;
     schema:datePublished "2026-10-02"^^xsd:date ;
     schema:track <https://myexchampagne.com/#yes-im-single-track> .
 
