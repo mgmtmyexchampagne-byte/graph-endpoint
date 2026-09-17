@@ -1,0 +1,2 @@
+artist_uri,artist_name,album_uri,album_title,track_uri,track_title,release_date,isrc_code,duration,audio_url,artwork_url,source_url,metadata_status
+https://myexchampagne.com/#artist,myexchampagne,https://myexchampagne.com/#yes-im-single,Yes I'm Single,https://myexchampagne.com/#yes-im-single-track,Yes I'm Single,2026-10-02,not_available,not_available,not_available,https://assets.myexchampagne.com/assets-folder/myexchampagne-artist-Debut-song-art.jpg,https://myexchampagne.com/,confirmed values from official website; ISRC duration and audio URL not published
