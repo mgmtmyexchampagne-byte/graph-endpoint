@@ -1,5 +1,3 @@
-import json
-
 import rdflib
 
 
@@ -11,9 +9,7 @@ def build_graph():
     graph.parse("artist.ttl", format="turtle")
 
     # Export as JSON-LD for search engines
-    jsonld_data = graph.serialize(format="json-ld")
-    with open("artist.jsonld", "w", encoding="utf-8") as output_file:
-        output_file.write(jsonld_data)
+    graph.serialize(destination="artist.jsonld", format="json-ld", encoding="utf-8")
 
     print(f"Graph built successfully! Exported artist.jsonld ({len(graph)} triples).")
 
