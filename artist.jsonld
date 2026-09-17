@@ -1,53 +1,5 @@
 [
   {
-    "@id": "https://myexchampagne.com/#yes-im-single-track",
-    "@type": [
-      "https://schema.org/MusicRecording"
-    ],
-    "https://schema.org/byArtist": [
-      {
-        "@id": "https://myexchampagne.com/#artist"
-      }
-    ],
-    "https://schema.org/inAlbum": [
-      {
-        "@id": "https://myexchampagne.com/#yes-im-single"
-      }
-    ],
-    "https://schema.org/name": [
-      {
-        "@value": "Yes I'm Single"
-      }
-    ]
-  },
-  {
-    "@id": "https://myexchampagne.com/#yes-im-single",
-    "@type": [
-      "https://schema.org/MusicAlbum"
-    ],
-    "https://schema.org/byArtist": [
-      {
-        "@id": "https://myexchampagne.com/#artist"
-      }
-    ],
-    "https://schema.org/datePublished": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#date",
-        "@value": "2026-10-02"
-      }
-    ],
-    "https://schema.org/name": [
-      {
-        "@value": "Yes I'm Single"
-      }
-    ],
-    "https://schema.org/track": [
-      {
-        "@id": "https://myexchampagne.com/#yes-im-single-track"
-      }
-    ]
-  },
-  {
     "@id": "https://myexchampagne.com/#artist",
     "@type": [
       "https://schema.org/MusicGroup"
@@ -65,6 +17,11 @@
     "https://schema.org/identifier": [
       {
         "@value": "0000000530964203"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://assets.myexchampagne.com/assets-folder/myexchampagne-artist-Main-photo-alt.jpg"
       }
     ],
     "https://schema.org/name": [
@@ -104,6 +61,59 @@
     "https://schema.org/url": [
       {
         "@id": "https://myexchampagne.com/"
+      }
+    ]
+  },
+  {
+    "@id": "https://myexchampagne.com/#yes-im-single",
+    "@type": [
+      "https://schema.org/MusicAlbum"
+    ],
+    "https://schema.org/byArtist": [
+      {
+        "@id": "https://myexchampagne.com/#artist"
+      }
+    ],
+    "https://schema.org/datePublished": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2026-10-02"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://assets.myexchampagne.com/assets-folder/myexchampagne-artist-Debut-song-art.jpg"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Yes I'm Single"
+      }
+    ],
+    "https://schema.org/track": [
+      {
+        "@id": "https://myexchampagne.com/#yes-im-single-track"
+      }
+    ]
+  },
+  {
+    "@id": "https://myexchampagne.com/#yes-im-single-track",
+    "@type": [
+      "https://schema.org/MusicRecording"
+    ],
+    "https://schema.org/byArtist": [
+      {
+        "@id": "https://myexchampagne.com/#artist"
+      }
+    ],
+    "https://schema.org/inAlbum": [
+      {
+        "@id": "https://myexchampagne.com/#yes-im-single"
+      }
+    ],
+    "https://schema.org/name": [
+      {
+        "@value": "Yes I'm Single"
       }
     ]
   }
