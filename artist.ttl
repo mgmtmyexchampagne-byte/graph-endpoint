@@ -6,25 +6,31 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 # Primary Artist Node
-<https://graph.yourdomain.com/#artist> a schema:MusicGroup ;
-    schema:name "YOUR ARTIST NAME" ;
-    schema:url "https://yourdomain.com" ;
-    schema:identifier "YOUR_ISNI_NUMBER" ;
-    schema:sameAs <https://www.wikidata.org/wiki/YOUR_WIKIDATA_QID> ,
-                  <https://musicbrainz.org/artist/YOUR_MUSICBRAINZ_ID> ,
-                  <https://orcid.org/YOUR_ORCID_ID> ;
-    schema:album <https://graph.yourdomain.com/#album1> .
+<https://myexchampagne.com/#artist> a schema:MusicGroup ;
+    schema:name "myexchampagne" ;
+    schema:description "Official website for myexchampagne, a hip-hop and R&B music artist born in Milwaukee, Wisconsin and based in Arizona." ;
+    schema:url <https://myexchampagne.com/> ;
+    schema:identifier "0000000530964203" ;
+    schema:sameAs <https://www.facebook.com/myexchampagne> ,
+        <https://www.instagram.com/myexchampagne> ,
+        <https://x.com/myexchampagne> ,
+        <https://www.youtube.com/@myexchampagne> ,
+        <https://www.tiktok.com/@myexchampagne> ,
+        <https://genius.com/artists/myexchampagne> ,
+        <https://musicbrainz.org/artist/7b461865-b74a-49ff-9cbe-e0ba481ea50f> ,
+        <https://isni.org/isni/0000000530964203> ,
+        <https://orcid.org/0009-0006-9246-2158> ;
+    schema:album <https://myexchampagne.com/#yes-im-single> .
 
 # Album Node
-<https://graph.yourdomain.com/#album1> a schema:MusicAlbum ;
-    schema:name "YOUR ALBUM TITLE" ;
-    schema:byArtist <https://graph.yourdomain.com/#artist> ;
-    schema:datePublished "2026-09-17"^^xsd:date ;
-    schema:track <https://graph.yourdomain.com/#track1> .
+<https://myexchampagne.com/#yes-im-single> a schema:MusicAlbum ;
+    schema:name "Yes I'm Single" ;
+    schema:byArtist <https://myexchampagne.com/#artist> ;
+    schema:datePublished "2026-10-02"^^xsd:date ;
+    schema:track <https://myexchampagne.com/#yes-im-single-track> .
 
 # Track Node with Technical/Acoustic Metadata
-<https://graph.yourdomain.com/#track1> a schema:MusicRecording ;
-    schema:name "TRACK 1 TITLE" ;
-    schema:isrcCode "YOUR_ISRC_CODE" ;
-    schema:duration "PT3M45S" ; # 3 min 45 sec
-    schema:audio <https://yourdomain.com/audio/track1.mp3> .
+<https://myexchampagne.com/#yes-im-single-track> a schema:MusicRecording ;
+    schema:name "Yes I'm Single" ;
+    schema:inAlbum <https://myexchampagne.com/#yes-im-single> ;
+    schema:byArtist <https://myexchampagne.com/#artist> .
